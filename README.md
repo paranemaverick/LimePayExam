@@ -1,6 +1,4 @@
-# Project Title
-
-Welcome to the project! This README file will guide you through the steps to access the solution.
+## LimePay Technical Assessment
 
 ## Steps to Access the Solution
 
@@ -11,14 +9,13 @@ Welcome to the project! This README file will guide you through the steps to acc
     ```
 
 2. **Access the URI**:
-    - Open your preferred web browser or Postman and navigate to the following URI, replacing `<threshold>` with the desired threshold integer value:
+    - Open your preferred web browser or Postman and navigate to the following URI, replacing `<threshold>` with the desired integer value:
     ```url
     http://localhost:8080/api/directors?threshold=<threshold>
     ```
 
 ## Notes
 
-- Ensure that you have [Maven](https://maven.apache.org/install.html) and [Spring Boot](https://spring.io/projects/spring-boot) installed on your machine.
-- Adjust the `{threshold}` value as needed to get the desired results.
+- Ensure that you have [JDK 23](https://www.oracle.com/ph/java/technologies/downloads/) and [Maven](https://maven.apache.org/install.html) and installed on your machine.
 
 Enjoy exploring the project!
