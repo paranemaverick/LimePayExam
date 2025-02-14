@@ -36,6 +36,7 @@ public class DirectorController {
         List<String> directors = directorMovieCountMap.entrySet().stream()
                 .filter(entry -> entry.getValue() > threshold)
                 .map(Map.Entry::getKey)
+                .sorted()
                 .toList();
 
         Map<String, List<String>> response = new HashMap<>();
